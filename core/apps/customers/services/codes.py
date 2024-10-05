@@ -7,7 +7,7 @@ from abc import (
 from django.core.cache import cache
 
 from core.apps.customers.entities.customers import CustomerEntity
-from core.apps.customers.exceptions.exceptions import (
+from core.apps.customers.exceptions.codes import (
     CodeNotFoundException,
     CodesNotEqualException,
 )
